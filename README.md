@@ -1,10 +1,8 @@
 
+LSTM
+<br>
+<br>
 
-<br>
-<br>
-<br>
-
-<pre>
 노래의 계이름과 음정길이를 코드화하여 LSTM 신경망으로 훈련시키는 코드입니다.노래제목은 "학교종이 땡땡땡"
 이며 "c"="도", "d"="레" 등으로 순서대로 코드화 하였고 알파벳뒤의 숫자는 음정의 길이를 의미합니다.
 
@@ -17,8 +15,8 @@ LSTM의 경우 대게 정상패턴 학습효율이 높게 나타납니다.코드
 바랍니다.
 
 자세한 내용은 LSTM.ipynb 파일과 lstm.py 파일을 참고하십시오.
-</pre>
 
-<br>
+
+<br><br>
 <img width="500" alt="스크린샷 2020-01-29 오후 11 51 13" src="https://user-images.githubusercontent.com/45910733/73367170-7e7f1d00-42f2-11ea-9bef-acbeb448aa9e.png">
 <img width="700" alt="스크린샷 2020-01-29 오후 11 52 14" src="https://user-images.githubusercontent.com/45910733/73367174-8048e080-42f2-11ea-9f55-720a908c7d54.png">
