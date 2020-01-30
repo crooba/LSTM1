@@ -79,7 +79,7 @@ model.add(Dense(one_hot_vec_size, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # 5. 모델 학습시키기
-num_epochs = 500
+num_epochs = 250
 
 history = LossHistory() # 손실 이력 객체 생성
 
