@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-학교종이 땡땡땡 악보코드
-g4, g4, a4, a4, g4, g4, e4, g4, g4, e4, e4, d4,  
-g4, g4, a4, a4, g4, g4, e4, g4, e4, d4, e4, c4
-'''
 import keras
 import numpy as np
 from keras.models import Sequential
@@ -31,13 +26,13 @@ def seq2dataset(seq, window_size):
 
 
 
-# 계이름과 음정의 코드화합니다.
+
 
 code2idx = {'c4':0, 'd4':1, 'e4':2, 'f4':3, 'g4':4, 'a4':5, 'b4':6}
 
 idx2code = {0:'c4', 1:'d4', 2:'e4', 3:'f4', 4:'g4', 5:'a4', 6:'b4'}
 
-# 악보를 코드화하여 정의합니다.
+
 
 seq = [g4, g4, a4, a4, g4, g4, e4, g4, g4, e4, e4, d4,  
 g4, g4, a4, a4, g4, g4, e4, g4, e4, d4, e4, c4]
