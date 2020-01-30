@@ -104,7 +104,7 @@ model.reset_states()
 
 # 모델을 사용합니다.
 
-pred_count = 20 # 최대 예측 개수 정의
+pred_count = 24 # 최대 예측 개수 정의
 
 # 한 스텝을 예측합니다.
 
